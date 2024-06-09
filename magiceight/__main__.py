@@ -1,6 +1,5 @@
 # Jacobus Burger (2024)
 # Magic eight ball on the command line!
-# TODO: make into a package
 from color50 import rgb, constants
 from random import randint, choice
 from sys import argv
@@ -31,7 +30,6 @@ def eightball(question: str) -> str:
     print("You asked {}...".format(question))
     print(color + fortune + constants.RESET)
 
-
-if __name__ == "__main__":
+def main():
     question = ' '.join(argv[1:])
     eightball(question)
