@@ -8,7 +8,7 @@ with open("README.md", 'r') as readme:
 
 setup(
     name="magiceight",
-    version="1.0",
+    version="1.1",
     description="A magic eight ball CLI program",
     long_description=long_description,
     long_description_content_type="text/markdown",
